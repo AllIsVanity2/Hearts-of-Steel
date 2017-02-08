@@ -2,7 +2,7 @@
 #This is incomplete! I've only included vanilla countries. We'll have to add the rest later.
 #If you add a non-vanilla country to this, please place it at the bottom so that it can be more easily to transferred to other files.
 
-  option = {
+ 	option = {
 		name = ceasefire.3.a # cancellation; nothing happens
 
 		ai_chance = {
