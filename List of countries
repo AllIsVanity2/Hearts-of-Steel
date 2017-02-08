@@ -1,0 +1,2695 @@
+#Purpose: If you're making an event that needs an option for every country, take this and use the replacement-function of a text-editor to get what you need.
+#This is incomplete! I've only included vanilla countries. We'll have to add the rest later.
+#If you add a non-vanilla country to this, please place it at the bottom so that it can be more easily to transferred to other files.
+
+  option = {
+		name = ceasefire.3.a # cancellation; nothing happens
+
+		ai_chance = {
+			factor = 100 #AI should never receive this event, but if it does somehow, nothing will happen
+		}
+	}
+
+	option = {
+		name = ceasefire.3.b
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = AFG
+		}
+
+		hidden_effect = {
+    
+			AFG = {
+      
+				country_event = {
+					id = ceasefire2.1
+					#Country responds to proposal.
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.c
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ALB
+		}
+
+		hidden_effect = {
+			ALB = {
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.d
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ANG
+		}
+
+		hidden_effect = {
+			
+			ANG = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.e
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ARM
+		}
+
+		hidden_effect = {
+			
+			ARM = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.f
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ARG
+		}
+
+		hidden_effect = {
+			
+			ARG = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.g
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = AST
+		}
+
+		hidden_effect = {
+			
+			AST = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.h
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = AUH
+		}
+
+		hidden_effect = {
+			
+			AUH = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.i
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = AUS
+		}
+
+		hidden_effect = {
+			
+			AUS = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.j
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = AZR
+		}
+
+		hidden_effect = {
+			
+			ARM = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.k
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = BLR
+		}
+
+		hidden_effect = {
+			
+			BLR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.l
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = BEL
+		}
+
+		hidden_effect = {
+			
+			BEL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.m
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = BHU
+		}
+
+		hidden_effect = {
+			
+			BHU = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.n
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = BOL
+		}
+
+		hidden_effect = {
+			
+			BOL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.o
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = BOT
+		}
+
+		hidden_effect = {
+			
+			BOT = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.p
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = BRA
+		}
+
+		hidden_effect = {
+			
+			BRA = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.q
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = MAL
+		}
+
+		hidden_effect = {
+			
+			MAL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.r
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = RAJ
+		}
+
+		hidden_effect = {
+			
+			RAJ = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.s
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = BUL
+		}
+
+		hidden_effect = {
+			
+			BUL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.t
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = CAM
+		}
+
+		hidden_effect = {
+			
+			CAM = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.u
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = CHL
+		}
+
+		hidden_effect = {
+			
+			CHL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.v
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = CHI
+		}
+
+		hidden_effect = {
+			
+			CHI = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.w
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = COL
+		}
+
+		hidden_effect = {
+			
+			COL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.x
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = COS
+		}
+
+		hidden_effect = {
+			
+			COS = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.y
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = CUB
+		}
+
+		hidden_effect = {
+			
+			CUB = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.z
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = CZE
+		}
+
+		hidden_effect = {
+			
+			CZE = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.aa
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = DEN
+		}
+
+		hidden_effect = {
+			
+			DEN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ab
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = DOM
+		}
+
+		hidden_effect = {
+			
+			DOM = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ac
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = CAN
+		}
+
+		hidden_effect = {
+			
+			CAN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ad
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = INS
+		}
+
+		hidden_effect = {
+			
+			INS = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ae
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = DDR
+		}
+
+		hidden_effect = {
+			
+			DDR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.af
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ECU
+		}
+
+		hidden_effect = {
+			
+			ECU = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ag
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ELS
+		}
+
+		hidden_effect = {
+			
+			ELS = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ah
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = EST
+		}
+
+		hidden_effect = {
+			
+			EST = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ai
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ETH
+		}
+
+		hidden_effect = {
+			
+			ETH = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.aj
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = FIN
+		}
+
+		hidden_effect = {
+			
+			FIN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ak
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = FRA
+		}
+
+		hidden_effect = {
+			
+			FRA = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.al
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = GEO
+		}
+
+		hidden_effect = {
+			
+			GEO = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.am
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = GER
+		}
+
+		hidden_effect = {
+			
+			GER = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.an
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = GRE
+		}
+
+		hidden_effect = {
+			
+			GRE = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ao
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = GXC
+		}
+
+		hidden_effect = {
+			
+			GXC = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ap
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = GUA
+		}
+
+		hidden_effect = {
+			
+			GUA = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.aq
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = HAI
+		}
+
+		hidden_effect = {
+			
+			HAI = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ar
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = HON
+		}
+
+		hidden_effect = {
+			
+			HON = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.as
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = HUN
+		}
+
+		hidden_effect = {
+			
+			HUN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.at
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ICE
+		}
+
+		hidden_effect = {
+			
+			ICE = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.au
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = PER
+		}
+
+		hidden_effect = {
+			
+			PER = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.av
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = IRQ
+		}
+
+		hidden_effect = {
+			
+			IRQ = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.aw
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = IRE
+		}
+
+		hidden_effect = {
+			
+			IRE = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ax
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ISR
+		}
+
+		hidden_effect = {
+			
+			ISR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ay
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ITA
+		}
+
+		hidden_effect = {
+			
+			ITA = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.az
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = JAP
+		}
+
+		hidden_effect = {
+			
+			JAP = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ba
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = JOR
+		}
+
+		hidden_effect = {
+			
+			JOR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bb
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = KEN
+		}
+
+		hidden_effect = {
+			
+			KEN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bc
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = EGY
+		}
+
+		hidden_effect = {
+			
+			EGY = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bd
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = LBA
+		}
+
+		hidden_effect = {
+			
+			LBA = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.be
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = KOR
+		}
+
+		hidden_effect = {
+			
+			KOR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bf
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = LAO
+		}
+
+		hidden_effect = {
+			
+			LAO = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bg
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = LAT
+		}
+
+		hidden_effect = {
+			
+			LAT = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bh
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = LEB
+		}
+
+		hidden_effect = {
+			
+			LEB = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bi
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = LIB
+		}
+
+		hidden_effect = {
+			
+			LIB = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bj
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = LIT
+		}
+
+		hidden_effect = {
+			
+			LIT = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bk
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = LUX
+		}
+
+		hidden_effect = {
+			
+			LUX = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bl
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = MAN
+		}
+
+		hidden_effect = {
+			
+			MAN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bm
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = MEN
+		}
+
+		hidden_effect = {
+			
+			MEN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bn
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = MEX
+		}
+
+		hidden_effect = {
+			
+			MEX = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bo
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = MON
+		}
+
+		hidden_effect = {
+			
+			MAN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bp
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = MNT
+		}
+
+		hidden_effect = {
+			
+			MNT = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bq
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = MZB
+		}
+
+		hidden_effect = {
+			
+			MZB = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.br
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = NEP
+		}
+
+		hidden_effect = {
+			
+			NEP = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bs
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = HOL
+		}
+
+		hidden_effect = {
+			
+			HOL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bt
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = NZL
+		}
+
+		hidden_effect = {
+			
+			NZL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bu
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = NIC
+		}
+
+		hidden_effect = {
+			
+			NIC = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bv
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = NOR
+		}
+
+		hidden_effect = {
+			
+			NOR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bw
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = OMA
+		}
+
+		hidden_effect = {
+			
+			OMA = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bx
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = PAK
+		}
+
+		hidden_effect = {
+			
+			PAK = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.by
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = PAL
+		}
+
+		hidden_effect = {
+			
+			PAL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.bz
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = PAN
+		}
+
+		hidden_effect = {
+			
+			PAN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ca
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = PAR
+		}
+
+		hidden_effect = {
+			
+			PAR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cb
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = PRC
+		}
+
+		hidden_effect = {
+			
+			PRC = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cc
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = PRU
+		}
+
+		hidden_effect = {
+			
+			PRU = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cd
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = PHI
+		}
+
+		hidden_effect = {
+			
+			PHI = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ce
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = POL
+		}
+
+		hidden_effect = {
+			
+			POL = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cf
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = POR
+		}
+
+		hidden_effect = {
+			
+			POR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cg
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ROM
+		}
+
+		hidden_effect = {
+			
+			ROM = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ch
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SAU
+		}
+
+		hidden_effect = {
+			
+			SAU = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ci
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SER
+		}
+
+		hidden_effect = {
+			
+			SER = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cj
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SHX
+		}
+
+		hidden_effect = {
+			
+			SHX = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ck
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SIA
+		}
+
+		hidden_effect = {
+			
+			SIA = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cl
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SIK
+		}
+
+		hidden_effect = {
+			
+			SIK = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cm
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SLO
+		}
+
+		hidden_effect = {
+			
+			SLO = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cn
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SAF
+		}
+
+		hidden_effect = {
+			
+			SAF = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.co
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SOV
+		}
+
+		hidden_effect = {
+			
+			SOV = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cp
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SPR
+		}
+
+		hidden_effect = {
+			
+			SPR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cq
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SWE
+		}
+
+		hidden_effect = {
+			
+			SWE = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cr
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SWI
+		}
+
+		hidden_effect = {
+			
+			SWI = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cs
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = SYR
+		}
+
+		hidden_effect = {
+			
+			SYR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ct
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = TAN
+		}
+
+		hidden_effect = {
+			
+			TAN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cu
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = TIB
+		}
+
+		hidden_effect = {
+			
+			TIB = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cv
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = TUR
+		}
+
+		hidden_effect = {
+			
+			TUR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cw
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = UKR
+		}
+
+		hidden_effect = {
+			
+			UKR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cx
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ENG
+		}
+
+		hidden_effect = {
+			
+			ENG = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cy
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = USA
+		}
+
+		hidden_effect = {
+			
+			USA = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.cz
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = URG
+		}
+
+		hidden_effect = {
+			
+			URG = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.da
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = VEN
+		}
+
+		hidden_effect = {
+			
+			VEN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.db
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = VIN
+		}
+
+		hidden_effect = {
+			
+			VIN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dc
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = WGR
+		}
+
+		hidden_effect = {
+			
+			WGR = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dd
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = XSM
+		}
+
+		hidden_effect = {
+			
+			XSM = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.de
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = YEM
+		}
+
+		hidden_effect = {
+			
+			YEM = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.df
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = YUG
+		}
+
+		hidden_effect = {
+			
+			YUG = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dg
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = YUN
+		}
+
+		hidden_effect = {
+			
+			YUN = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dh
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = COG
+		}
+
+		hidden_effect = {
+			
+			COG = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.di
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = ZIM
+		}
+
+		hidden_effect = {
+			
+			ZIM = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dj
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D01
+		}
+
+		hidden_effect = {
+			
+			D01 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dk
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D02
+		}
+
+		hidden_effect = {
+			
+			D02 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dl
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D03
+		}
+
+		hidden_effect = {
+			
+			D03 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dm
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D04
+		}
+
+		hidden_effect = {
+			
+			D04 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dn
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D05
+		}
+
+		hidden_effect = {
+			
+			D05 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.do
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D06
+		}
+
+		hidden_effect = {
+			
+			D06 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dp
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D07
+		}
+
+		hidden_effect = {
+			
+			D07 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dq
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D08
+		}
+
+		hidden_effect = {
+			
+			D08 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.dr
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D09
+		}
+
+		hidden_effect = {
+			
+			D09 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ceasefire.3.ds
+
+		ai_chance = {
+			factor = 0
+		}
+
+		trigger = {
+			has_war_with = D10
+		}
+
+		hidden_effect = {
+			
+			D10 = {
+				
+				country_event = {
+					id = ceasefire2.1
+				}
+			}
+		}
+	}
+}
