@@ -1,8 +1,11 @@
 #Purpose: If you're making an event that needs an option for every country, take this and use the replacement-function of a text-editor to get what you need.
 #This is incomplete! I've only included vanilla countries. We'll have to add the rest later.
 #If you add a non-vanilla country to this, please place it at the bottom so that it can be more easily to transferred to other files.
-
- 	option = {
+	title = ceasefire.3.tit
+	desc = ceasefire.3.desc
+	#Don't use ".d" or ".t!"
+ 	
+	option = {
 		name = ceasefire.3.a # cancellation; nothing happens
 
 		ai_chance = {
